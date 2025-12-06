@@ -13,6 +13,7 @@
 
     <div id="back">
         <div id="bar">
+                <!-- CHANGER "tab" -> "tab selected" -->
             <a href="index.html" class="tab">Accueil 🏠</a>
             <a href="pegasus.html" class="tab">Pegasus 🐎</a>
             <a href="not_petya.html" class="tab">NotPetya 🦠</a>
@@ -26,7 +27,7 @@
 
     <div class="content">
 
-        <p> Hello World! </p>
+        <!-- TEXTE ICI -->
         
     </div>
 
