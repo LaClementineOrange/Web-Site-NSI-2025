@@ -92,14 +92,17 @@ a {
 
 #croix {
   font-size: 23px;
+  font-weight: lighter;
 }
 #square {
-  padding-top: 7px;
-  font-size: 22px;
+  padding-top: 8px;
+  font-size: 19px;
+  font-weight: lighter;
 }
 #clear {
   padding-top: 7px;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: lighter;
 }
 
 .content {
