@@ -27,75 +27,72 @@
 
     <div class="content">
 
-            <h1 id="green"><u>NotPetya</u></h1>
+<h1 id="green"><u>NotPetya</u></h1>
 
-        <p>Logiciel malveillant de type wiper <i>(destruction des données)</i>, déguiser en un ransomware <i>(blocage des données contre une rançon)</i>.</p>
+<p>Logiciel malveillant de type wiper <i>(destruction des données)</i>, déguisé en ransomware <i>(blocage des données contre une rançon)</i>.</p>
 
-        <p>Ce virus est à l'origine d'une cyberattaque mondiale au même titre que WannaCry.</p>
+<p>Ce virus est à l'origine d'une cyberattaque mondiale, au même titre que WannaCry.</p>
 
-            <h2 class="lgreen">Histoire 📜</h2>
+<h2 class="lgreen">Histoire 📜</h2>
 
-        <p>Il a été découvert pour la première fois en Ukraine, le 27 juin 2017, mais s'est rapidement propagé à d'autres pays en utilisant la faille nommé "EternalBlue", affectant des entreprises et des infrastructures critiques dans le monde entier, incluant la France.</p>
+<p>Il a été découvert pour la première fois en Ukraine, le 27 juin 2017, mais s'est rapidement propagé à d'autres pays en utilisant la faille nommée « EternalBlue », affectant des entreprises et des infrastructures critiques dans le monde entier, y compris la France.</p>
 
-        <p>Pour cela, les pirates ont d'abord diffusés le virus par l'intermediaire de la mise à jour d'un logiciel de comptabilité nommé MEDoc. Ce logiciel est très utilisé dans les entreprises ukrainiennes, ce qui explique la grande quantité d'infection dans ce pays</p>
-        
-            <h2 class="lgreen">Fonctionnement ⚠️</h2>
+<p>Pour cela, les pirates ont d'abord diffusé le virus par l'intermédiaire de la mise à jour d'un logiciel de comptabilité nommé MEDoc. Ce logiciel est très utilisé dans les entreprises ukrainiennes, ce qui explique la grande quantité d'infections dans ce pays.</p>
 
-        <p>🦠 Une fois le fichier contenant le virus executé, l'ordianteur va :</p>
+<h2 class="lgreen">Fonctionnement ⚠️</h2>
 
-        <ol>
+<p>🦠 Une fois le fichier contenant le virus exécuté, l'ordinateur va :</p>
 
-            <li>Redémarrer et afficher un BSOD <i>(Blue Screen Of Death)</i>.</li>
+<ol>
+    <li>Redémarrer et afficher un BSOD <i>(Blue Screen Of Death)</i>.</li>
+    <li>L'utilitaire de recherche des erreurs <i>(CHKDSK)</i> va procéder à une fausse vérification des disques durs.</li>
+</ol>
 
-            <li>L'utilitaire de recherche des erreurs <i>(CHKDSK)</i> va procéder à une fausse vérification des disques durs.</li>
+<p>Enfin, similaire à d'autres ransomwares, NotPetya va afficher ce message à chaque démarrage :</p>
 
-        </ol>
+<p>❗<i>« Ooops, vos fichiers ont été chiffrés. Si vous voyez ce message, vos fichiers ne sont plus accessibles, car ils ont été chiffrés. Peut-être que vous recherchez un moyen de récupérer vos fichiers, mais ne perdez pas votre temps. Personne ne peut récupérer vos fichiers sans notre service de déchiffrement. »</i></p>
 
-        <p>Enfin, similaire à d'autres ransomwares, NotPetya va afficher ce message à chaque démarrage :</p>
+<p>Ce message, suivi d'une adresse de wallet Bitcoin, promettait de vous rendre vos données en échange de 300 $. Mais en réalité, NotPetya ne chiffre pas les fichiers, il les détruit de manière irréversible, rendant toute tentative de récupération impossible.</p>
 
-        <p>❗<i>« Ooops, vos fichiers ont été chiffrés. Si vous voyez ce message, vos fichiers ne sont plus accessibles, car ils ont été chiffrés. Peut-être que vous recherchez un moyen de récupérer vos fichiers, mais ne perdez pas votre temps. Personne ne peut récupérer vos fichiers sans notre service de déchiffrement. »</i></p>
+<p>👉 Même si NotPetya ne possède pas de « kill switch » <i>(mécanisme d'arrêt global du virus)</i>, une méthode de protection a été trouvée par des experts du domaine. Pour cela, vous pouvez créer un fichier nommé <i>« perfc »</i> à la racine de l'ordinateur, ce qui empêchera le chiffrement des données.</p>
 
-        <p>Ce message, suivi d'une adresse d'un wallet bitcoin prommettait de vous rendre vos données en échange de 300$. Mais en réalité, NotPetya ne chiffre pas les fichiers, mais les détruit de manière irréversible, rendant toute tentative de récupération impossible.</p>
+<h2 class="lgreen">Impact 💥</h2>
 
-        <p>👉 Même si NotPetya ne possède pas de "Kill switch" <i>(mécanisme d'arrêt global du virus)</i>, une manière de s'en protéger à été trouvée par des experts dans le domaine, pour cela vous pouvez créer un ficher nommé <i>"perfc"</i> à la racine de l'ordinateur, ce qui empêchera le chiffrement des données.</i> </p>
-        
-            <h2 class="lgreen">Impact 💥</h2>
+<p>🏢 NotPetya a touché de nombreuses entreprises à travers le monde, comme :</p>
 
-        <p>🏢 Notpetya a touché de nombreuses entreprises à travers le monde comme : </p>
+<ul>
+    <li>
+        Maersk, l'une des plus grandes compagnies de transport maritime au monde, qui a subi des pertes estimées entre 200 et 300 millions de dollars en raison de l'arrêt de ses opérations.
+    </li>
+    <li>
+        Merck, une entreprise pharmaceutique, a également été gravement touchée, avec des pertes estimées à 870 millions de dollars.
+    </li>
+    <li>
+        Le géant alimentaire Mondelez a rapporté des pertes d'environ 100 millions de dollars.
+    </li>
+    <li>
+        En Ukraine, le gouvernement et plusieurs infrastructures critiques ont été paralysés, y compris les systèmes de paiement électronique et les services publics.
+    </li>
+</ul>
 
-        <ul>
-            <li>
-                Maersk, une des plus grandes compagnies de transport maritime au monde, qui a subi des pertes estimées à 200-300 millions de dollars en raison de l'arrêt de ses opérations.
-            </li>
-            <li>
-                Merck, une entreprise pharmaceutique, a également été gravement touchée, avec des pertes estimées à 870 millions de dollars.
-            </li>
-            <li>
-                Le géant alimentaire Mondelez a rapporté des pertes d'environ 100 millions de dollars.
-            </li>
-            <li>
-                En Ukraine, le gouvernement et plusieurs infrastructures critiques ont été paralysés, y compris les systèmes de paiement électronique et les services publics.
-            </li>
-        </ul>
+<p>🥖 La France n'a pas été épargnée non plus :</p>
 
-        <p>🥖 La France n'a pas été épargnée non plus :</p>
+<ul>
+    <li>
+        Le géant du transport SNCF a été touché, mais il n'y a eu aucune perturbation sur le réseau.
+    </li>
+    <li>
+        L'entreprise française spécialisée dans la construction de bâtiments Saint-Gobain a été touchée par le virus, affirmant avoir perdu près de 384 millions de dollars.
+    </li>
+</ul>
 
-        <ul>
-            <li>
-                Le géant du transport SNCF a été touché, mais il n'y a eu aucune perturbation sur le réseau.
-            </li>
-            <li>
-                L'entreprise française spécialisée dans la construction de bâtiments Saint-Gobain a été touchée par le virus, affirmant avoir perdu près de 384 millions de dollars.
-            </li>
-        </ul>
+<p>💰 Le coût total des dommages causés par NotPetya est estimé à plusieurs milliards de dollars, ce qui en fait l'une des cyberattaques les plus coûteuses de l'histoire.</p>
 
-        <p>💰 Le coût total des dommages causés par NotPetya est estimé à plusieurs milliards de dollars, ce qui en fait l'une des cyberattaques les plus coûteuses de l'histoire.</p>
+<h2 class="lgreen">Responsables 🕵️‍♂️</h2>
+
+<p>Les experts en cybersécurité et les agences gouvernementales ont attribué l'attaque NotPetya à un groupe de hackers russes connu sous le nom de Sandworm, lié au service de renseignement militaire russe (GRU). L'attaque visait principalement l'Ukraine, mais son impact mondial a mis en évidence les risques croissants des cyberattaques tournées vers les États.</p>
     
-        <h2 class="lgreen">Responsables 🕵️‍♂️</h2>
-
-            <p>Les experts en cybersécurité et les agences gouvernementales ont attribué l'attaque NotPetya à un groupe de hackers russes connu sous le nom de Sandworm, lié au service de renseignement militaire russe (GRU). L'attaque visait principalement l'Ukraine, mais son impact mondial a mis en évidence les risques croissants des cyberattaques tournées vers les états.</p>
-    
-    </div>
+</div>
 
     <a href="https://github.com/LaClementineOrange/Web-Site-NSI-2025#"><img src="src/github_logo.png" width="60" id="git_logo"></a>
 	<p id="credits"> Créé par <a href="https://github.com/LaClementineOrange"><em id="orange">LaClémentineOrange</em></a>🍊 et <a href="https://github.com/Pablosaure10"><em id="pablo">Pablosaure</em></a>🦖</p>
